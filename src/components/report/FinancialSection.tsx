@@ -242,4 +242,4 @@ const FinancialSection = () => (
   </section>
 );
 
-export default ExecutiveSummary;
+export default FinancialSection;

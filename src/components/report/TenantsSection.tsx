@@ -2,12 +2,12 @@ import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 
 const tenants = [
-  { name: "Cinemark Movie Bistro", detail: "Suite 101 · NNN", sf: "29,486", pct: "29.96%", rent: "$14.00", annual: "$412,804", exp: "Aug 2028", risk: "high" as const },
-  { name: "TruFit Athletic Clubs", detail: { es: "Suite 103 · NNN · Incremento 10% Dic 2029", en: "Suite 103 · NNN · 10% bump Dec 2029" }, sf: "28,000", pct: "28.45%", rent: "$14.00", annual: "$392,000", exp: "Dec 2034", risk: "low" as const },
-  { name: "Vexus Fiber", detail: "Suite 109/EC · NNN", sf: "8,036", pct: "8.16%", rent: "$20.00", annual: "$160,720", exp: "Aug 2029", risk: "low" as const },
-  { name: "Koulikov Grappling Academy", detail: "Suite 104-105 · NNN", sf: "4,000", pct: "4.06%", rent: "$13.79", annual: "$55,167", exp: "Dec 2027", risk: "mod" as const },
-  { name: "Smash House", detail: "Suite 106-107 · NNN", sf: "4,000", pct: "4.06%", rent: "$15.60", annual: "$62,400", exp: "Jun 2028", risk: "high" as const },
-  { name: "Galaxy VR & Game Lounge", detail: "Suite 108 · NNN", sf: "2,000", pct: "2.03%", rent: "$15.91", annual: "$31,827", exp: "Dec 2027", risk: "high" as const },
+  { name: "Cinemark Movie Bistro", detail: "Suite 116 · NNN", sf: "29,486", pct: "29.96%", rent: "$1.17", annual: "$412,804", exp: "Aug 2028", risk: "high" as const },
+  { name: "TruFit Athletic Clubs", detail: { es: "Suite 103 · NNN · Incremento 10% Dic 2029", en: "Suite 103 · NNN · 10% bump Dec 2029" }, sf: "28,000", pct: "28.45%", rent: "$1.17", annual: "$392,000", exp: "Dec 2034", risk: "low" as const },
+  { name: "Vexus Fiber", detail: "Suite 109/EC · NNN", sf: "8,036", pct: "8.16%", rent: "$1.67", annual: "$160,720", exp: "Aug 2029", risk: "low" as const },
+  { name: "Koulikov Grappling Academy", detail: "Suite 104-105 · NNN", sf: "4,000", pct: "4.06%", rent: "$1.15", annual: "$55,167", exp: "Dec 2027", risk: "mod" as const },
+  { name: "Smash House", detail: "Suite 106-107 · NNN", sf: "4,000", pct: "4.06%", rent: "$1.30", annual: "$62,400", exp: "Jun 2028", risk: "high" as const },
+  { name: "Galaxy VR & Game Lounge", detail: "Suite 108 · NNN", sf: "2,000", pct: "2.03%", rent: "$1.33", annual: "$31,827", exp: "Dec 2027", risk: "high" as const },
 ];
 
 const riskColors = {
@@ -27,8 +27,8 @@ const TenantsSection = () => (
       eyebrow={{ es: "Inquilinos Actuales", en: "Current Tenants" }}
       title={{ es: "El Rol de Rentas", en: "The Rent Roll" }}
       subtitle={{
-        es: "Seis inquilinos ocupan 75,522 pies² a una renta promedio de $14.76/pie² — significativamente por debajo del promedio del mercado de Edinburg de $20–25/pie². Todos los contratos son estructura NNN.",
-        en: "Six tenants occupy 75,522 SF at an average rent of $14.76/SF — significantly below the Edinburg market average of $20–25/SF. All leases are NNN structure.",
+        es: "Seis inquilinos ocupan 75,522 pies² a una renta promedio de $1.23/pie²/mes — significativamente por debajo del promedio del mercado de Edinburg de $2.00–2.50/pie²/mes. Todos los contratos son estructura NNN.",
+        en: "Six tenants occupy 75,522 SF at an average rent of $1.23/SF/mo — significantly below the Edinburg market average of $2.00–2.50/SF/mo. All leases are NNN structure.",
       }}
     />
 
@@ -41,7 +41,7 @@ const TenantsSection = () => (
                 { es: "Inquilino", en: "Tenant" },
                 { es: "Pies²", en: "SF" },
                 { es: "% ALB", en: "% GLA" },
-                { es: "Renta/Pie²", en: "Rent/SF" },
+                { es: "Renta/Pie²/Mes", en: "Rent/SF/Mo" },
                 { es: "Renta Anual", en: "Annual Rent" },
                 { es: "Venc.", en: "Exp." },
                 { es: "Riesgo", en: "Risk" },

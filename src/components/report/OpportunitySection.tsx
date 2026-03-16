@@ -16,15 +16,15 @@ const OpportunitySection = () => (
       {[
         {
           title: { es: "Llenar Vacancia", en: "Fill Vacancy" },
-          desc: { es: "22,904 SF vacantes a $18–22/SF = potencial de $412K–$504K en ingresos adicionales anuales.", en: "22,904 SF vacant at $18–22/SF = potential $412K–$504K in additional annual income." },
+          desc: { es: "22,904 SF vacantes a $1.50–1.83/pie²/mes = potencial de $412K–$504K en ingresos adicionales anuales.", en: "22,904 SF vacant at $1.50–1.83/SF/mo = potential $412K–$504K in additional annual income." },
         },
         {
           title: { es: "Renegociar Rentas", en: "Re-Negotiate Rents" },
-          desc: { es: "Rentas actuales $5–10/SF por debajo del mercado. Al renovar contratos, llevar a niveles de mercado.", en: "Current rents $5–10/SF below market. At renewal, push toward market rates." },
+          desc: { es: "Rentas actuales $0.75–0.83/pie²/mes por debajo del mercado. Al renovar contratos, llevar a niveles de mercado ($2.00–2.50/pie²/mes).", en: "Current rents $0.75–0.83/SF/mo below market. At renewal, push toward market rates ($2.00–2.50/SF/mo)." },
         },
         {
           title: { es: "Renovar Cinemark", en: "Renew Cinemark" },
-          desc: { es: "Si Cinemark renueva a tasa de mercado ($18+/SF), se eliminan 29,486 SF de riesgo y se añaden ~$118K/año.", en: "If Cinemark renews at market rate ($18+/SF), it eliminates 29,486 SF of risk and adds ~$118K/year." },
+          desc: { es: "Si Cinemark renueva a tasa de mercado ($1.50+/pie²/mes), se eliminan 29,486 SF de riesgo. Pero dada su caída de utilidades del 55%, prepárese para negociar desde una posición fuerte — o para un escenario de reemplazo.", en: "If Cinemark renews at market rate ($1.50+/SF/mo), it eliminates 29,486 SF of risk. But given their 55% earnings decline, prepare to negotiate from a position of strength — or for a replacement scenario." },
         },
       ].map((item, i) => (
         <div key={i} className="flex gap-5 items-start">

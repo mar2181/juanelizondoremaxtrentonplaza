@@ -58,8 +58,8 @@ const CapRatesSection = () => (
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T
-          es="El promedio de McAllen de 7.12% es para propiedades estabilizadas. Añadimos una prima de riesgo de 1.4–2.4% por: vacancia del 24%, mezcla de anclas sin supermercado, vencimiento de Cinemark en 2.5 años, inquilinos experienciales con mayores tasas de fracaso, y posicionamiento en submercado secundario."
-          en="The McAllen average of 7.12% is for stabilized, well-occupied properties. We add a 1.4–2.4% risk premium for: 24% vacancy, non-grocery anchor mix, Cinemark lease expiring in 2.5 years, experiential tenants with higher failure rates, and secondary submarket positioning."
+          es="El promedio de McAllen de 7.12% es para propiedades estabilizadas. Añadimos una prima de riesgo de 1.4–2.4% por: vacancia del 24%, mezcla de anclas sin supermercado, vencimiento de Cinemark en 2.5 años agravado por su caída de utilidades del 55% y deuda de $1.87B, inquilinos experienciales con mayores tasas de fracaso, y posicionamiento en submercado secundario."
+          en="The McAllen average of 7.12% is for stabilized, well-occupied properties. We add a 1.4–2.4% risk premium for: 24% vacancy, non-grocery anchor mix, Cinemark lease expiring in 2.5 years compounded by their 55% earnings decline and $1.87B debt load, experiential tenants with higher failure rates, and secondary submarket positioning."
         />
       </p>
     </div>

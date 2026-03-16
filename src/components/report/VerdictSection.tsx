@@ -25,8 +25,8 @@ const VerdictSection = () => (
         </div>
         <p className="text-sm text-muted-foreground mt-6 leading-relaxed">
           <T
-            es="El vendedor está fijando precio de activo Clase A estabilizado. La vacancia del 24% es 4× el promedio del mercado. Recomendamos abrir en $10.2M para establecer un piso de negociación realista."
-            en="The seller is pricing this as a stabilized Class A asset. The 24% vacancy is 4× the market average. We recommend opening at $10.2M to establish a realistic negotiation floor."
+            es="El vendedor está fijando precio de activo Clase A estabilizado. La vacancia del 24% es 4× el promedio del mercado. La caída del 55% en las utilidades netas de Cinemark y su deuda de $1.87B hacen que la renovación del ancla sea incierta. Recomendamos abrir en $10.2M para establecer un piso de negociación realista."
+            en="The seller is pricing this as a stabilized Class A asset. The 24% vacancy is 4× the market average. Cinemark's 55% net income decline and $1.87B debt load make anchor renewal uncertain. We recommend opening at $10.2M to establish a realistic negotiation floor."
           />
         </p>
       </motion.div>
@@ -48,7 +48,7 @@ const VerdictSection = () => (
           { es: "Revisar este reporte con su asesor financiero y equipo legal.", en: "Review this report with your financial advisor and legal team." },
           { es: "Preparar carta de intención (LOI) con oferta de $10.2M.", en: "Prepare Letter of Intent (LOI) with $10.2M offer." },
           { es: "Solicitar estados financieros auditados de los últimos 3 años.", en: "Request audited financial statements for the past 3 years." },
-          { es: "Verificar estatus de renovación de Cinemark directamente.", en: "Verify Cinemark renewal status directly." },
+          { es: "Verificar estatus de renovación de Cinemark directamente — e investigar su salud financiera corporativa.", en: "Verify Cinemark renewal status directly — and investigate their corporate financial health." },
           { es: "Programar inspección física de la propiedad.", en: "Schedule physical property inspection." },
         ].map((item, i) => (
           <div key={i} className="flex items-start gap-4">

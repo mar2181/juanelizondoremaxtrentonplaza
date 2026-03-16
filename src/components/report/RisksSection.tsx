@@ -3,8 +3,8 @@ import SectionHeader from "./SectionHeader";
 
 const risks = [
   {
-    title: { es: "Vencimiento de Cinemark", en: "Cinemark Expiration" },
-    desc: { es: "29,486 SF — el inquilino más grande — vence en Agosto 2028. Si no renueva, la ocupación cae a ~46%.", en: "29,486 SF — the largest tenant — expires August 2028. If they don't renew, occupancy drops to ~46%." },
+    title: { es: "Vencimiento de Cinemark + Fragilidad Financiera", en: "Cinemark Expiration + Financial Fragility" },
+    desc: { es: "29,486 SF (Suite 116) — el inquilino más grande — vence en Agosto 2028. La utilidad neta de Cinemark cayó 55% en 2025 ($309.7M → $138.2M) a pesar de alcanzar máximos post-pandemia en taquilla. Cargan $1.87 mil millones en deuda a largo plazo. Si no renueva, la ocupación cae a ~46%.", en: "29,486 SF (Suite 116) — the largest tenant — expires August 2028. Cinemark's net income fell 55% in 2025 ($309.7M → $138.2M) despite hitting post-pandemic box office highs. They carry $1.87B in long-term debt. If they don't renew, occupancy drops to ~46%." },
     severity: "high" as const,
   },
   {
@@ -19,7 +19,7 @@ const risks = [
   },
   {
     title: { es: "Rentas por Debajo del Mercado", en: "Below-Market Rents" },
-    desc: { es: "Promedio de $14.76/SF vs. mercado de $20–25/SF. Potencial de crecimiento, pero también indica debilidad del centro.", en: "Average of $14.76/SF vs. market of $20–25/SF. Upside potential, but also signals center weakness." },
+    desc: { es: "Promedio de $1.23/pie²/mes vs. mercado de $2.00–2.50/pie²/mes. Potencial de crecimiento, pero también indica debilidad del centro.", en: "Average of $1.23/SF/mo vs. market of $2.00–2.50/SF/mo. Upside potential, but also signals center weakness." },
     severity: "mod" as const,
   },
 ];

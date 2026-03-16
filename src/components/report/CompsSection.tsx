@@ -5,7 +5,7 @@ const comps = [
   {
     name: "Palms Crossing",
     detail: { es: "McAllen, TX · Inquilinos nacionales de crédito", en: "McAllen, TX · National credit tenants" },
-    sf: "339,000", occ: "98%", price: "$81.6M", psf: "$241", cap: "N/D",
+    sf: "399,075", occ: "98%", price: "$81.6M", psf: "$204", cap: "N/D",
     status: { es: "Vendido", en: "Sold" }, statusType: "sold" as const,
   },
   {

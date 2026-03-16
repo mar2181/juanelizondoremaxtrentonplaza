@@ -9,6 +9,7 @@ import TenantsSection from "@/components/report/TenantsSection";
 import CapRatesSection from "@/components/report/CapRatesSection";
 import CompsSection from "@/components/report/CompsSection";
 import FinancialSection from "@/components/report/FinancialSection";
+import ContradictionsSection from "@/components/report/ContradictionsSection";
 import RisksSection from "@/components/report/RisksSection";
 import OpportunitySection from "@/components/report/OpportunitySection";
 import StrategySection from "@/components/report/StrategySection";
@@ -19,7 +20,7 @@ const Index = () => {
   const [activeSection, setActiveSection] = useState("summary");
 
   useEffect(() => {
-    const sections = ["summary", "tenants", "caprates", "comps", "financial", "risks", "opportunity", "strategy", "nextsteps"];
+    const sections = ["summary", "tenants", "caprates", "comps", "financial", "contradictions", "risks", "opportunity", "strategy", "nextsteps"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -52,6 +53,7 @@ const Index = () => {
           <CapRatesSection />
           <CompsSection />
           <FinancialSection />
+          <ContradictionsSection />
           <RisksSection />
           <OpportunitySection />
           <StrategySection />

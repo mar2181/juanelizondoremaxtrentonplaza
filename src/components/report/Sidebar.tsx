@@ -7,6 +7,7 @@ const sections = [
   { id: "caprates", es: "Cap Rates", en: "Cap Rates" },
   { id: "comps", es: "Comparables", en: "Comparables" },
   { id: "financial", es: "Análisis Financiero", en: "Financial Analysis" },
+  { id: "contradictions", es: "Contradicciones del OM", en: "OM Contradictions" },
   { id: "risks", es: "Riesgos", en: "Risks" },
   { id: "opportunity", es: "Oportunidad", en: "Opportunity" },
   { id: "strategy", es: "Estrategia", en: "Strategy" },

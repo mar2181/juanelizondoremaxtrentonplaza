@@ -4,12 +4,27 @@ import SectionHeader from "./SectionHeader";
 const risks = [
   {
     title: { es: "Vencimiento de Cinemark + Fragilidad Financiera", en: "Cinemark Expiration + Financial Fragility" },
-    desc: { es: "29,486 SF (Suite 116) — el inquilino más grande — vence en Agosto 2028. La utilidad neta de Cinemark cayó 55% en 2025 ($309.7M → $138.2M) a pesar de alcanzar máximos post-pandemia en taquilla. Cargan $1.87 mil millones en deuda a largo plazo. Si no renueva, la ocupación cae a ~46%.", en: "29,486 SF (Suite 116) — the largest tenant — expires August 2028. Cinemark's net income fell 55% in 2025 ($309.7M → $138.2M) despite hitting post-pandemic box office highs. They carry $1.87B in long-term debt. If they don't renew, occupancy drops to ~46%." },
+    desc: { es: "29,486 SF (Suite 101) — el inquilino más grande — vence en Agosto 2028. La utilidad neta de Cinemark cayó 55% en 2025 ($309.7M → $138.2M) a pesar de alcanzar máximos post-pandemia en taquilla. Cargan $1.87 mil millones en deuda a largo plazo. Cinemark tiene 4 opciones de renovación a 5 años con incrementos del 10%, pero un inquilino bajo presión financiera puede no ejercerlas.", en: "29,486 SF (Suite 101) — the largest tenant — expires August 2028. Cinemark's net income fell 55% in 2025 ($309.7M → $138.2M) despite hitting post-pandemic box office highs. They carry $1.87B in long-term debt. Cinemark has 4 five-year renewal options at 10% bumps, but a financially strained tenant may not exercise them." },
+    severity: "high" as const,
+  },
+  {
+    title: { es: "Flujo de Caja Negativo en Año 2", en: "Year 2 Cash Flow Crater" },
+    desc: { es: "El flujo de caja operativo cae de $1,004,307 (2025) a $561,281 en 2026 debido a ~$680K en costos de arrendamiento. Después de servicio de deuda, el flujo se vuelve negativo (-$11,436). Esto no se refleja en el precio.", en: "Operating cash flow drops from $1,004,307 (2025) to $561,281 in 2026 due to ~$680K in lease-up capital costs. After debt service, cash flow goes NEGATIVE (-$11,436). This is not reflected in the asking price." },
+    severity: "high" as const,
+  },
+  {
+    title: { es: "Precipicio de Renovación 2027-2028", en: "40% Rollover Cliff (2027-2028)" },
+    desc: { es: "39,486 SF (40% del ALB ocupado) vencen en los próximos 3 años: Koulikov y Galaxy VR en Dic 2027, Smash House en Jun 2028, Cinemark en Ago 2028. Si TruFit realmente vence en Dic-29 (vs. Dic-34 del Rol de Rentas), ambas anclas rollan en 3-4 años.", en: "39,486 SF (40% of occupied GLA) expires within 3 years: Koulikov and Galaxy VR in Dec 2027, Smash House in Jun 2028, Cinemark in Aug 2028. If TruFit actually expires Dec-29 (vs. the Rent Roll's Dec-34), both anchors roll within 3-4 years." },
+    severity: "high" as const,
+  },
+  {
+    title: { es: "Costos de Re-Arrendamiento", en: "Re-Tenanting Cost Exposure" },
+    desc: { es: "Si Cinemark se va, re-arrendar cuesta ~$1.18M ($40/pie² en mejoras para nuevo ancla). Locales comerciales: $25/pie² en mejoras. Comisiones: 6% nuevos contratos, 2% renovaciones. Estos costos NO están reflejados en el precio de venta.", en: "If Cinemark leaves, re-tenanting costs ~$1.18M ($40/SF in TI for new anchor). Shop spaces: $25/SF in TI. Commissions: 6% new leases, 2% renewals. These costs are NOT reflected in the asking price." },
     severity: "high" as const,
   },
   {
     title: { es: "Vacancia del 24%", en: "24% Vacancy" },
-    desc: { es: "4–5 veces la norma del mercado (4–5.5%). Seis espacios vacantes generan un lastre significativo.", en: "4–5x the market norm (4–5.5%). Six vacant spaces create significant drag on value." },
+    desc: { es: "4–5 veces la norma del mercado (4–5.5%). Seis espacios vacantes generan un lastre significativo en el valor.", en: "4–5x the market norm (4–5.5%). Six vacant spaces create significant drag on value." },
     severity: "high" as const,
   },
   {

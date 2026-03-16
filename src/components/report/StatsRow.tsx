@@ -6,7 +6,7 @@ const stats = [
   { label: { es: "Terreno", en: "Land" }, value: "15.13", suffix: { es: "AC", en: "AC" } },
   { label: { es: "Año", en: "Year Built" }, value: "2008", suffix: null },
   { label: { es: "Ocupación", en: "Occupancy" }, value: "76%", suffix: null, danger: true },
-  { label: { es: "ION Actual", en: "In-Place NOI" }, value: "$907,921", suffix: null },
+  { label: { es: "ION Actual", en: "In-Place NOI" }, value: "$1,019,071", suffix: null },
   { label: { es: "Precio de Venta", en: "Asking Price" }, value: "$12,764,000", suffix: null },
 ];
 

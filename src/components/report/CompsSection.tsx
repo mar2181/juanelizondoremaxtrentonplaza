@@ -17,19 +17,19 @@ const comps = [
   {
     name: "Floor & Decor NNN",
     detail: { es: "McAllen, TX · Arrendamiento de terreno a 55 años", en: "McAllen, TX · 55-year ground lease" },
-    sf: "65,000", occ: "100%", price: "$7.0M", psf: "$108", cap: "5.00%",
+    sf: "65,000", occ: "100%", price: "$7.0M", psf: "$108", cap: "~5.00%*",
     status: { es: "Vendido", en: "Sold" }, statusType: "sold" as const,
   },
   {
     name: "Edinburg Shopping Centers (Avg)",
     detail: { es: "Edinburg, TX · Promedio del mercado", en: "Edinburg, TX · Market average all types" },
-    sf: { es: "Varía", en: "Varies" }, occ: { es: "Varía", en: "Varies" }, price: { es: "Varía", en: "Varies" }, psf: "~$175", cap: "~7.15%",
+    sf: { es: "Varía", en: "Varies" }, occ: { es: "Varía", en: "Varies" }, price: { es: "Varía", en: "Varies" }, psf: "~$175", cap: "~7.33%",
     status: { es: "Referencia", en: "Benchmark" }, statusType: "low" as const,
   },
   {
     name: "Trenton Plaza",
     detail: { es: "Edinburg, TX · 76% ocupado", en: "Edinburg, TX · 76% occupied" },
-    sf: "98,426", occ: "76%", price: "$12.8M", psf: "$125", cap: "8.31%",
+    sf: "98,426", occ: "76%", price: "$12.8M", psf: "$124.60", cap: "8.31%*",
     status: { es: "Precio Vendedor", en: "Seller's Ask" }, statusType: "high" as const,
   },
 ];
@@ -96,6 +96,12 @@ const CompsSection = () => (
             ))}
           </tbody>
         </table>
+      </div>
+      <div className="px-6 py-3 bg-secondary/10 text-xs text-muted-foreground">
+        <T
+          es="* Floor & Decor cap rate es estimado (arrendamiento de terreno, comparabilidad limitada). El cap rate de Trenton Plaza de 8.31% se calcula solo sobre el centro; cap efectivo sobre precio total es 7.98%."
+          en="* Floor & Decor cap rate is estimated (ground lease, limited comparability). Trenton Plaza's 8.31% cap rate is calculated on center only; effective cap on total price is 7.98%."
+        />
       </div>
     </div>
   </section>

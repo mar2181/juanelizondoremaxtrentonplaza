@@ -66,7 +66,7 @@ const CompsSection = () => (
                 { es: "Pies²", en: "SF" },
                 { es: "Ocupación", en: "Occupancy" },
                 { es: "Precio", en: "Price" },
-                { es: "$/SF", en: "$/SF" },
+                { es: <Term id="psf">$/SF</Term>, en: <Term id="psf">$/SF</Term> },
                 { es: "Cap Rate", en: "Cap Rate" },
                 { es: "Estatus", en: "Status" },
               ].map((h, i) => (

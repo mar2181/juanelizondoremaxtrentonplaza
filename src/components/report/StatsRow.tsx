@@ -21,7 +21,9 @@ const StatsRow = () => (
         transition={{ duration: 0.4, delay: i * 0.05 }}
         className="px-5 py-6 text-center border-r border-border last:border-r-0 bg-surface hover:bg-card transition-colors"
       >
-        <p className="caps mb-1.5"><T es={s.label.es} en={s.label.en} /></p>
+        <p className="caps mb-1.5">
+          {(s as any).termId ? <Term id={(s as any).termId}><T es={s.label.es} en={s.label.en} /></Term> : <T es={s.label.es} en={s.label.en} />}
+        </p>
         <p className={`text-xl font-extrabold tracking-tight tabular-nums ${s.danger ? "text-destructive" : "text-foreground"}`}>
           {s.value}
           {s.suffix && <span className="text-xs text-muted-foreground ml-1"><T es={s.suffix.es} en={s.suffix.en} /></span>}

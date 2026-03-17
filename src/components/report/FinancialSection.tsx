@@ -126,8 +126,8 @@ const FinancialSection = () => (
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T
-          es="El flujo de caja operativo cae de $1,004,307 (2025) a $561,281 en 2026 debido a ~$680K en costos de arrendamiento y mejoras para inquilinos. Después del servicio de deuda, el flujo se vuelve NEGATIVO (-$11,436). Esto no se refleja en el precio de venta del vendedor."
-          en="Operating cash flow drops from $1,004,307 (2025) to $561,281 in 2026 due to ~$680K in lease-up capital costs (TI and commissions). After debt service, cash flow goes NEGATIVE (-$11,436). This is not reflected in the seller's asking price."
+           es={<>El flujo de caja operativo cae de $1,004,307 (2025) a $561,281 en 2026 debido a ~$680K en costos de arrendamiento y <Term id="ti">mejoras para inquilinos</Term>. Después del <Term id="debt-service">servicio de deuda</Term>, el flujo se vuelve NEGATIVO (-$11,436). Esto no se refleja en el precio de venta del vendedor.</>}
+           en={<>Operating cash flow drops from $1,004,307 (2025) to $561,281 in 2026 due to ~$680K in lease-up capital costs (<Term id="ti">TI</Term> and commissions). After <Term id="debt-service">debt service</Term>, cash flow goes NEGATIVE (-$11,436). This is not reflected in the seller's asking price.</>}
         />
       </p>
     </div>

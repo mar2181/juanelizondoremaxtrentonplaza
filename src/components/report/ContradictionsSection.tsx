@@ -50,10 +50,10 @@ const ContradictionsSection = () => (
     <SectionHeader
       eyebrow={{ es: "Contradicciones del OM", en: "OM Contradictions" }}
       title={{ es: "Lo Que el Vendedor Se Contradice", en: "Where the Seller Contradicts Itself" }}
-      subtitle={{
-        es: "Encontramos 7 contradicciones internas en los Memorándums de Oferta del vendedor. Cada una representa una palanca de negociación concreta.",
-        en: "We found 7 internal contradictions in the seller's Offering Memorandums. Each represents a concrete negotiation lever.",
-      }}
+       subtitle={{
+         es: <>Encontramos 7 contradicciones internas en los <Term id="om">Memorándums de Oferta</Term> del vendedor. Cada una representa una palanca de negociación concreta.</>,
+         en: <>We found 7 internal contradictions in the seller's <Term id="om">Offering Memorandums</Term>. Each represents a concrete negotiation lever.</>,
+       }}
     />
 
     <div className="grid grid-cols-2 gap-4 mt-7 max-md:grid-cols-1">

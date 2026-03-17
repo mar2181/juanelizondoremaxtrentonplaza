@@ -28,8 +28,8 @@ const TenantsSection = () => (
       eyebrow={{ es: "Inquilinos Actuales", en: "Current Tenants" }}
       title={{ es: "El Rol de Rentas", en: "The Rent Roll" }}
       subtitle={{
-        es: "Seis inquilinos ocupan 75,522 pies² a una renta promedio de $1.23/pie²/mes — significativamente por debajo del promedio del mercado de Edinburg de $2.00–2.50/pie²/mes. Todos los contratos son estructura NNN con cuota administrativa del 15%.",
-        en: "Six tenants occupy 75,522 SF at an average rent of $1.23/SF/mo — significantly below the Edinburg market average of $2.00–2.50/SF/mo. All leases are NNN structure with 15% administrative fee.",
+         es: <>Seis inquilinos ocupan 75,522 pies² a una renta promedio de $1.23/pie²/mes — significativamente por debajo del promedio del mercado de Edinburg de $2.00–2.50/pie²/mes. Todos los contratos son estructura <Term id="nnn">NNN</Term> con cuota administrativa del 15%.</>,
+         en: <>Six tenants occupy 75,522 SF at an average rent of $1.23/SF/mo — significantly below the Edinburg market average of $2.00–2.50/SF/mo. All leases are <Term id="nnn">NNN</Term> structure with 15% administrative fee.</>,
       }}
     />
 

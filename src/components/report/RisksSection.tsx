@@ -20,7 +20,7 @@ const risks = [
   },
   {
     title: { es: "Costos de Re-Arrendamiento", en: "Re-Tenanting Cost Exposure" },
-    desc: { es: "Si Cinemark se va, re-arrendar cuesta ~$1.18M ($40/pie² en mejoras para nuevo ancla). Locales comerciales: $25/pie² en mejoras. Comisiones: 6% nuevos contratos, 2% renovaciones. Estos costos NO están reflejados en el precio de venta.", en: "If Cinemark leaves, re-tenanting costs ~$1.18M ($40/SF in TI for new anchor). Shop spaces: $25/SF in TI. Commissions: 6% new leases, 2% renewals. These costs are NOT reflected in the asking price." },
+    desc: { es: <>Si Cinemark se va, re-arrendar cuesta ~$1.18M ($40/pie² en <Term id="ti">mejoras para inquilinos</Term> para nuevo ancla). Locales comerciales: $25/pie² en mejoras. Comisiones: 6% nuevos contratos, 2% renovaciones. Estos costos NO están reflejados en el precio de venta.</>, en: <>If Cinemark leaves, re-tenanting costs ~$1.18M ($40/SF in <Term id="ti">TI</Term> for new anchor). Shop spaces: $25/SF in TI. Commissions: 6% new leases, 2% renewals. These costs are NOT reflected in the asking price.</> },
     severity: "high" as const,
   },
   {

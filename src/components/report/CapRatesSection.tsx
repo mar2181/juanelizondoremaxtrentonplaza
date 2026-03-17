@@ -26,7 +26,7 @@ const CapRatesSection = () => (
 
     <div className="bg-card border border-border rounded-xl p-8 mt-7 max-md:p-5">
       <h4 className="text-base font-bold text-foreground mb-1">
-        <T es="Referencias de Cap Rate" en="Cap Rate Benchmarks" />
+        <T es={<>Referencias de <Term id="cap-rate">Cap Rate</Term></>} en={<><Term id="cap-rate">Cap Rate</Term> Benchmarks</>} />
       </h4>
       <p className="text-xs text-muted-foreground mb-6">
         <T es="Mercado McAllen-Edinburg · Datos 2025–2026" en="McAllen-Edinburg Market · 2025–2026 Data" />

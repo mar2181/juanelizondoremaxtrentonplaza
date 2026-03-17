@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const FinancialSection = () => (
   <section id="financial" className="px-12 py-14 border-b border-border max-md:px-6 max-md:py-10">
@@ -15,17 +16,19 @@ const FinancialSection = () => (
     <div className="grid grid-cols-2 gap-5 mt-7 max-md:grid-cols-1">
       {/* Verified NOI Breakdown */}
       <div className="bg-card border border-border rounded-xl p-7 border-t-[3px] border-t-primary">
-        <h4 className="caps mb-2"><T es="Desglose Verificado del ION" en="Verified NOI Breakdown" /></h4>
+        <h4 className="caps mb-2"><T es={<>Desglose Verificado del <Term id="noi">ION</Term></>} en={<>Verified <Term id="noi">NOI</Term> Breakdown</>} /></h4>
         <p className="text-[32px] font-extrabold text-primary tabular-nums tracking-tight mb-5">$1,019,071</p>
         <div className="space-y-0">
           {[
             { label: { es: "Renta Base Programada", en: "Scheduled Base Rent" }, val: "$1,117,773" },
-            { label: { es: "Reembolsos NNN", en: "NNN Reimbursements" }, val: "+$362,834" },
-            { label: { es: "Renta Porcentual", en: "Percentage Rent" }, val: "+$34,904" },
+            { label: { es: "Reembolsos NNN", en: "NNN Reimbursements" }, val: "+$362,834", termId: "nnn" },
+            { label: { es: "Renta Porcentual", en: "Percentage Rent" }, val: "+$34,904", termId: "pct-rent" },
             { label: { es: "Menos: Gastos Operativos", en: "Less: Operating Expenses" }, val: "-$496,440", negative: true },
           ].map((item, i) => (
             <div key={i} className="flex justify-between py-2 text-[13px] border-b border-border last:border-b-0">
-              <span className="text-muted-foreground"><T es={item.label.es} en={item.label.en} /></span>
+              <span className="text-muted-foreground">
+                {(item as any).termId ? <Term id={(item as any).termId}><T es={item.label.es} en={item.label.en} /></Term> : <T es={item.label.es} en={item.label.en} />}
+              </span>
               <span className={`font-semibold tabular-nums ${item.negative ? "text-destructive" : "text-text-sub"}`}>{item.val}</span>
             </div>
           ))}
@@ -123,8 +126,8 @@ const FinancialSection = () => (
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T
-          es="El flujo de caja operativo cae de $1,004,307 (2025) a $561,281 en 2026 debido a ~$680K en costos de arrendamiento y mejoras para inquilinos. Después del servicio de deuda, el flujo se vuelve NEGATIVO (-$11,436). Esto no se refleja en el precio de venta del vendedor."
-          en="Operating cash flow drops from $1,004,307 (2025) to $561,281 in 2026 due to ~$680K in lease-up capital costs (TI and commissions). After debt service, cash flow goes NEGATIVE (-$11,436). This is not reflected in the seller's asking price."
+           es={<>El flujo de caja operativo cae de $1,004,307 (2025) a $561,281 en 2026 debido a ~$680K en costos de arrendamiento y <Term id="ti">mejoras para inquilinos</Term>. Después del <Term id="debt-service">servicio de deuda</Term>, el flujo se vuelve NEGATIVO (-$11,436). Esto no se refleja en el precio de venta del vendedor.</>}
+           en={<>Operating cash flow drops from $1,004,307 (2025) to $561,281 in 2026 due to ~$680K in lease-up capital costs (<Term id="ti">TI</Term> and commissions). After <Term id="debt-service">debt service</Term>, cash flow goes NEGATIVE (-$11,436). This is not reflected in the seller's asking price.</>}
         />
       </p>
     </div>
@@ -154,14 +157,14 @@ const FinancialSection = () => (
           </thead>
           <tbody>
             {[
-              { label: { es: "Mantenimiento de Áreas Comunes", en: "Common Area Maintenance" }, amount: "$131,273", psf: "$1.33" },
+              { label: { es: "Mantenimiento de Áreas Comunes", en: "Common Area Maintenance" }, amount: "$131,273", psf: "$1.33", termId: "cam" },
               { label: { es: "Cuota de Administración", en: "Management Fee" }, amount: "$45,465", psf: "$0.46" },
               { label: { es: "Seguro", en: "Insurance" }, amount: "$73,007", psf: "$0.74" },
               { label: { es: "Impuestos", en: "Real Estate Taxes" }, amount: "$246,695", psf: "$2.51" },
             ].map((item, i) => (
               <tr key={i}>
                 <td className="px-4 py-3.5 border-b border-border text-text-sub">
-                  <T es={item.label.es} en={item.label.en} />
+                   {(item as any).termId ? <Term id={(item as any).termId}><T es={item.label.es} en={item.label.en} /></Term> : <T es={item.label.es} en={item.label.en} />}
                 </td>
                 <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">{item.amount}</td>
                 <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">{item.psf}</td>

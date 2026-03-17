@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const contradictions = [
   {
@@ -49,10 +50,10 @@ const ContradictionsSection = () => (
     <SectionHeader
       eyebrow={{ es: "Contradicciones del OM", en: "OM Contradictions" }}
       title={{ es: "Lo Que el Vendedor Se Contradice", en: "Where the Seller Contradicts Itself" }}
-      subtitle={{
-        es: "Encontramos 7 contradicciones internas en los Memorándums de Oferta del vendedor. Cada una representa una palanca de negociación concreta.",
-        en: "We found 7 internal contradictions in the seller's Offering Memorandums. Each represents a concrete negotiation lever.",
-      }}
+       subtitle={{
+         es: <>Encontramos 7 contradicciones internas en los <Term id="om">Memorándums de Oferta</Term> del vendedor. Cada una representa una palanca de negociación concreta.</>,
+         en: <>We found 7 internal contradictions in the seller's <Term id="om">Offering Memorandums</Term>. Each represents a concrete negotiation lever.</>,
+       }}
     />
 
     <div className="grid grid-cols-2 gap-4 mt-7 max-md:grid-cols-1">
@@ -71,13 +72,13 @@ const ContradictionsSection = () => (
     </div>
 
     <div className="callout-gradient border border-border rounded-xl p-7 mt-7">
-      <h4 className="text-base font-bold text-primary mb-2">
-        <T es="Suposición Crítica del Modelo" en="Critical Modeling Assumption" />
+       <h4 className="text-base font-bold text-primary mb-2">
+         <T es={<>Suposición Crítica del Modelo</>} en={<>Critical Modeling Assumption</>} />
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T
-          es="El modelo de flujo de caja del vendedor asume que Cinemark EJERCERÁ su opción de renovación. La TIR de 18.14% trata la renovación como certeza, no como probabilidad. Dada la caída de utilidades del 55% de Cinemark y su deuda de $1.87B, esta suposición debe cuestionarse."
-          en="The seller's cash flow model assumes Cinemark WILL exercise their renewal option. The 18.14% IRR treats Cinemark renewal as certainty, not probability. Given Cinemark's 55% earnings decline and $1.87B debt load, this assumption must be challenged."
+           es={<>El modelo de flujo de caja del vendedor asume que Cinemark EJERCERÁ su opción de renovación. La <Term id="irr">TIR</Term> de 18.14% trata la renovación como certeza, no como probabilidad. Dada la caída de utilidades del 55% de Cinemark y su deuda de $1.87B, esta suposición debe cuestionarse.</>}
+           en={<>The seller's cash flow model assumes Cinemark WILL exercise their renewal option. The 18.14% <Term id="irr">IRR</Term> treats Cinemark renewal as certainty, not probability. Given Cinemark's 55% earnings decline and $1.87B debt load, this assumption must be challenged.</>}
         />
       </p>
     </div>

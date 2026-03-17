@@ -1,5 +1,7 @@
+import React from "react";
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const comps = [
   {
@@ -60,15 +62,15 @@ const CompsSection = () => (
         <table className="w-full text-sm">
           <thead>
             <tr>
-              {[
+              {([
                 { es: "Propiedad", en: "Property" },
                 { es: "Pies²", en: "SF" },
                 { es: "Ocupación", en: "Occupancy" },
                 { es: "Precio", en: "Price" },
-                { es: "$/SF", en: "$/SF" },
+                { es: <Term id="psf">$/SF</Term>, en: <Term id="psf">$/SF</Term> },
                 { es: "Cap Rate", en: "Cap Rate" },
                 { es: "Estatus", en: "Status" },
-              ].map((h, i) => (
+              ] as { es: React.ReactNode; en: React.ReactNode }[]).map((h, i) => (
                 <th key={i} className="caps px-4 py-3 text-left border-b border-border bg-secondary/30">
                   <T es={h.es} en={h.en} />
                 </th>

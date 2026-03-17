@@ -20,7 +20,7 @@ export const LangProvider: React.FC<{ children: React.ReactNode }> = ({ children
 };
 
 /** Bilingual text helper */
-export const T: React.FC<{ es: string; en: string }> = ({ es, en }) => {
+export const T: React.FC<{ es: React.ReactNode; en: React.ReactNode }> = ({ es, en }) => {
   const { lang } = useLang();
   return <>{lang === "es" ? es : en}</>;
 };

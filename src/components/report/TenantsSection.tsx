@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const tenants = [
   { name: "Cinemark Movie Bistro", detail: "Suite 101 · NNN", sf: "29,486", pct: "29.96%", rent: "$1.17", annual: "$412,804", exp: "Aug 2028", risk: "high" as const },

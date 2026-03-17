@@ -1,6 +1,7 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import Term from "./Term";
+import TermsGuide from "./TermsGuide";
 
 const contradictions = [
   {

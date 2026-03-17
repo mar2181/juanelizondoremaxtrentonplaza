@@ -26,7 +26,9 @@ const FinancialSection = () => (
             { label: { es: "Menos: Gastos Operativos", en: "Less: Operating Expenses" }, val: "-$496,440", negative: true },
           ].map((item, i) => (
             <div key={i} className="flex justify-between py-2 text-[13px] border-b border-border last:border-b-0">
-              <span className="text-muted-foreground"><T es={item.label.es} en={item.label.en} /></span>
+              <span className="text-muted-foreground">
+                {(item as any).termId ? <Term id={(item as any).termId}><T es={item.label.es} en={item.label.en} /></Term> : <T es={item.label.es} en={item.label.en} />}
+              </span>
               <span className={`font-semibold tabular-nums ${item.negative ? "text-destructive" : "text-text-sub"}`}>{item.val}</span>
             </div>
           ))}

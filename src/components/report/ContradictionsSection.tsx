@@ -72,8 +72,8 @@ const ContradictionsSection = () => (
     </div>
 
     <div className="callout-gradient border border-border rounded-xl p-7 mt-7">
-      <h4 className="text-base font-bold text-primary mb-2">
-        <T es="Suposición Crítica del Modelo" en="Critical Modeling Assumption" />
+       <h4 className="text-base font-bold text-primary mb-2">
+         <T es={<>Suposición Crítica del Modelo</>} en={<>Critical Modeling Assumption</>} />
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T

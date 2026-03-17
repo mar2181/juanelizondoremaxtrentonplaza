@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import { motion } from "framer-motion";
+import Term from "./Term";
 
 const stats = [
   { label: { es: "ALB Total", en: "Total GLA" }, value: "98,426", suffix: { es: "Pies²", en: "SF" } },

@@ -164,7 +164,7 @@ const FinancialSection = () => (
             ].map((item, i) => (
               <tr key={i}>
                 <td className="px-4 py-3.5 border-b border-border text-text-sub">
-                  <T es={item.label.es} en={item.label.en} />
+                   {(item as any).termId ? <Term id={(item as any).termId}><T es={item.label.es} en={item.label.en} /></Term> : <T es={item.label.es} en={item.label.en} />}
                 </td>
                 <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">{item.amount}</td>
                 <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">{item.psf}</td>

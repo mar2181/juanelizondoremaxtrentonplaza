@@ -77,8 +77,8 @@ const ContradictionsSection = () => (
       </h4>
       <p className="text-sm text-text-sub leading-relaxed">
         <T
-          es="El modelo de flujo de caja del vendedor asume que Cinemark EJERCERÁ su opción de renovación. La TIR de 18.14% trata la renovación como certeza, no como probabilidad. Dada la caída de utilidades del 55% de Cinemark y su deuda de $1.87B, esta suposición debe cuestionarse."
-          en="The seller's cash flow model assumes Cinemark WILL exercise their renewal option. The 18.14% IRR treats Cinemark renewal as certainty, not probability. Given Cinemark's 55% earnings decline and $1.87B debt load, this assumption must be challenged."
+           es={<>El modelo de flujo de caja del vendedor asume que Cinemark EJERCERÁ su opción de renovación. La <Term id="irr">TIR</Term> de 18.14% trata la renovación como certeza, no como probabilidad. Dada la caída de utilidades del 55% de Cinemark y su deuda de $1.87B, esta suposición debe cuestionarse.</>}
+           en={<>The seller's cash flow model assumes Cinemark WILL exercise their renewal option. The 18.14% <Term id="irr">IRR</Term> treats Cinemark renewal as certainty, not probability. Given Cinemark's 55% earnings decline and $1.87B debt load, this assumption must be challenged.</>}
         />
       </p>
     </div>

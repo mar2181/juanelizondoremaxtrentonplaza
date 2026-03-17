@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import TermsGuide from "./TermsGuide";
 
 const StrategySection = () => (
   <section id="strategy" className="px-12 py-14 border-b border-border max-md:px-6 max-md:py-10">
@@ -42,6 +43,8 @@ const StrategySection = () => (
         </div>
       ))}
     </div>
+
+    <TermsGuide terms={["cap-rate", "loi", "ti"]} />
   </section>
 );
 

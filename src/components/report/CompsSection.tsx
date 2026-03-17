@@ -2,6 +2,7 @@ import React from "react";
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import Term from "./Term";
+import TermsGuide from "./TermsGuide";
 
 const comps = [
   {
@@ -106,6 +107,8 @@ const CompsSection = () => (
         />
       </div>
     </div>
+
+    <TermsGuide terms={["psf", "cap-rate"]} />
   </section>
 );
 

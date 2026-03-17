@@ -2,6 +2,7 @@ import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import { motion } from "framer-motion";
 import Term from "./Term";
+import TermsGuide from "./TermsGuide";
 
 const benchmarks = [
   { label: { es: "Inquilino Único NNN (Crédito)", en: "Single-Tenant NNN (Credit)" }, value: "5.0 – 6.0%", pct: 27 },
@@ -77,6 +78,8 @@ const CapRatesSection = () => (
         />
       </p>
     </div>
+
+    <TermsGuide terms={["cap-rate", "nnn"]} />
   </section>
 );
 

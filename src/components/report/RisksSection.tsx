@@ -2,6 +2,7 @@ import React from "react";
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import Term from "./Term";
+import TermsGuide from "./TermsGuide";
 
 const risks: { title: { es: React.ReactNode; en: React.ReactNode }; desc: { es: React.ReactNode; en: React.ReactNode }; severity: "high" | "mod" }[] = [
   {
@@ -67,6 +68,8 @@ const RisksSection = () => (
         </div>
       ))}
     </div>
+
+    <TermsGuide terms={["ti", "gla", "debt-service"]} />
   </section>
 );
 

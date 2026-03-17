@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const comps = [
   {

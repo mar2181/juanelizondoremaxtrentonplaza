@@ -21,8 +21,8 @@ const FinancialSection = () => (
         <div className="space-y-0">
           {[
             { label: { es: "Renta Base Programada", en: "Scheduled Base Rent" }, val: "$1,117,773" },
-            { label: { es: "Reembolsos NNN", en: "NNN Reimbursements" }, val: "+$362,834" },
-            { label: { es: "Renta Porcentual", en: "Percentage Rent" }, val: "+$34,904" },
+            { label: { es: "Reembolsos NNN", en: "NNN Reimbursements" }, val: "+$362,834", termId: "nnn" },
+            { label: { es: "Renta Porcentual", en: "Percentage Rent" }, val: "+$34,904", termId: "pct-rent" },
             { label: { es: "Menos: Gastos Operativos", en: "Less: Operating Expenses" }, val: "-$496,440", negative: true },
           ].map((item, i) => (
             <div key={i} className="flex justify-between py-2 text-[13px] border-b border-border last:border-b-0">

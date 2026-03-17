@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Term from "./Term";
 
 const stats = [
-  { label: { es: "ALB Total", en: "Total GLA" }, value: "98,426", suffix: { es: "Pies²", en: "SF" } },
+  { label: { es: "ALB Total", en: "Total GLA" }, value: "98,426", suffix: { es: "Pies²", en: "SF" }, termId: "gla" as const },
   { label: { es: "Terreno", en: "Land" }, value: "15.13", suffix: { es: "AC", en: "AC" } },
   { label: { es: "Año", en: "Year Built" }, value: "2008", suffix: null },
   { label: { es: "Ocupación", en: "Occupancy" }, value: "76%", suffix: null, danger: true },

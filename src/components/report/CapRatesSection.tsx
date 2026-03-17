@@ -1,6 +1,7 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import { motion } from "framer-motion";
+import Term from "./Term";
 
 const benchmarks = [
   { label: { es: "Inquilino Único NNN (Crédito)", en: "Single-Tenant NNN (Credit)" }, value: "5.0 – 6.0%", pct: 27 },

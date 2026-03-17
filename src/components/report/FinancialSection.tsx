@@ -1,5 +1,6 @@
 import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
+import Term from "./Term";
 
 const FinancialSection = () => (
   <section id="financial" className="px-12 py-14 border-b border-border max-md:px-6 max-md:py-10">

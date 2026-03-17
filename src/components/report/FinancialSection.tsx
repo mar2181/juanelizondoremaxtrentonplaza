@@ -16,7 +16,7 @@ const FinancialSection = () => (
     <div className="grid grid-cols-2 gap-5 mt-7 max-md:grid-cols-1">
       {/* Verified NOI Breakdown */}
       <div className="bg-card border border-border rounded-xl p-7 border-t-[3px] border-t-primary">
-        <h4 className="caps mb-2"><T es="Desglose Verificado del ION" en="Verified NOI Breakdown" /></h4>
+        <h4 className="caps mb-2"><T es={<>Desglose Verificado del <Term id="noi">ION</Term></>} en={<>Verified <Term id="noi">NOI</Term> Breakdown</>} /></h4>
         <p className="text-[32px] font-extrabold text-primary tabular-nums tracking-tight mb-5">$1,019,071</p>
         <div className="space-y-0">
           {[

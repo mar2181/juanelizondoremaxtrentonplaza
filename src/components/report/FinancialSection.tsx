@@ -157,7 +157,7 @@ const FinancialSection = () => (
           </thead>
           <tbody>
             {[
-              { label: { es: "Mantenimiento de Áreas Comunes", en: "Common Area Maintenance" }, amount: "$131,273", psf: "$1.33" },
+              { label: { es: "Mantenimiento de Áreas Comunes", en: "Common Area Maintenance" }, amount: "$131,273", psf: "$1.33", termId: "cam" },
               { label: { es: "Cuota de Administración", en: "Management Fee" }, amount: "$45,465", psf: "$0.46" },
               { label: { es: "Seguro", en: "Insurance" }, amount: "$73,007", psf: "$0.74" },
               { label: { es: "Impuestos", en: "Real Estate Taxes" }, amount: "$246,695", psf: "$2.51" },

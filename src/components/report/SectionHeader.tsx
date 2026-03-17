@@ -5,9 +5,9 @@ const SectionHeader = ({
   title,
   subtitle,
 }: {
-  eyebrow: { es: string; en: string };
-  title: { es: string; en: string };
-  subtitle?: { es: string; en: string };
+  eyebrow: { es: React.ReactNode; en: React.ReactNode };
+  title: { es: React.ReactNode; en: React.ReactNode };
+  subtitle?: { es: React.ReactNode; en: React.ReactNode };
 }) => (
   <div className="mb-8">
     <p className="text-[11px] tracking-[2.5px] uppercase text-primary font-bold mb-2.5 flex items-center gap-2">

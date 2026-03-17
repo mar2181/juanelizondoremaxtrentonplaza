@@ -43,6 +43,8 @@ const StrategySection = () => (
         </div>
       ))}
     </div>
+
+    <TermsGuide terms={["cap-rate", "loi", "ti"]} />
   </section>
 );
 

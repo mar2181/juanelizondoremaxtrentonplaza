@@ -89,6 +89,8 @@ const ExecutiveSummary = () => (
         </table>
       </div>
     </div>
+
+    <TermsGuide terms={["cap-rate", "noi", "om"]} />
   </section>
 );
 

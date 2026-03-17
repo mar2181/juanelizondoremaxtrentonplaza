@@ -68,6 +68,8 @@ const RisksSection = () => (
         </div>
       ))}
     </div>
+
+    <TermsGuide terms={["ti", "gla", "debt-service"]} />
   </section>
 );
 

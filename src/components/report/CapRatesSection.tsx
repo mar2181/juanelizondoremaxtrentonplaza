@@ -78,6 +78,8 @@ const CapRatesSection = () => (
         />
       </p>
     </div>
+
+    <TermsGuide terms={["cap-rate", "nnn"]} />
   </section>
 );
 

@@ -124,6 +124,8 @@ const TenantsSection = () => (
         ))}
       </div>
     </div>
+
+    <TermsGuide terms={["nnn", "gla", "rent-roll"]} />
   </section>
 );
 

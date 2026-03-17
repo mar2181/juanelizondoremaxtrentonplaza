@@ -243,6 +243,8 @@ const FinancialSection = () => (
         </table>
       </div>
     </div>
+
+    <TermsGuide terms={["noi", "nnn", "cam", "pct-rent", "debt-service", "ti"]} />
   </section>
 );
 

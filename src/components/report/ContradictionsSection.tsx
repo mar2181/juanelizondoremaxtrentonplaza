@@ -83,6 +83,8 @@ const ContradictionsSection = () => (
         />
       </p>
     </div>
+
+    <TermsGuide terms={["om", "irr", "10-k"]} />
   </section>
 );
 

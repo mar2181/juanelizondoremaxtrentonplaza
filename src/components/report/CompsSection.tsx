@@ -107,6 +107,8 @@ const CompsSection = () => (
         />
       </div>
     </div>
+
+    <TermsGuide terms={["psf", "cap-rate"]} />
   </section>
 );
 

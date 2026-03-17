@@ -1,3 +1,4 @@
+import React from "react";
 import { T } from "@/contexts/LangContext";
 
 const SectionHeader = ({

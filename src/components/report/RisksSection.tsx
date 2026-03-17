@@ -2,7 +2,7 @@ import { T } from "@/contexts/LangContext";
 import SectionHeader from "./SectionHeader";
 import Term from "./Term";
 
-const risks = [
+const risks: { title: { es: React.ReactNode; en: React.ReactNode }; desc: { es: React.ReactNode; en: React.ReactNode }; severity: "high" | "mod" }[] = [
   {
     title: { es: "Vencimiento de Cinemark + Fragilidad Financiera", en: "Cinemark Expiration + Financial Fragility" },
     desc: { es: "29,486 SF (Suite 101) — el inquilino más grande — vence en Agosto 2028. La utilidad neta de Cinemark cayó 55% en 2025 ($309.7M → $138.2M) a pesar de alcanzar máximos post-pandemia en taquilla. Cargan $1.87 mil millones en deuda a largo plazo. Cinemark tiene 4 opciones de renovación a 5 años con incrementos del 10%, pero un inquilino bajo presión financiera puede no ejercerlas.", en: "29,486 SF (Suite 101) — the largest tenant — expires August 2028. Cinemark's net income fell 55% in 2025 ($309.7M → $138.2M) despite hitting post-pandemic box office highs. They carry $1.87B in long-term debt. Cinemark has 4 five-year renewal options at 10% bumps, but a financially strained tenant may not exercise them." },

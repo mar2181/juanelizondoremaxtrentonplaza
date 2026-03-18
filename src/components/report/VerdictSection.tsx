@@ -25,8 +25,8 @@ const VerdictSection = () => (
         </div>
         <p className="text-sm text-muted-foreground mt-6 leading-relaxed">
           <T
-            es="El ION del vendedor de $1,019,071 está verificado — pero el precio sigue inflado. El cap rate efectivo sobre el precio total es 7.98%, no 8.31%. La vacancia del 24% es 4× el promedio del mercado. El flujo de caja del Año 2 se vuelve negativo después de deuda (-$11,436). Las contradicciones internas del OM en datos de TruFit crean incertidumbre adicional. Recomendamos abrir en $11.0M con due diligence de 90 días."
-            en="The seller's NOI of $1,019,071 is verified — but the price remains inflated. The effective cap rate on total price is 7.98%, not 8.31%. The 24% vacancy is 4× the market average. Year 2 cash flow goes negative after debt (-$11,436). Internal OM contradictions on TruFit data create additional uncertainty. We recommend opening at $11.0M with 90-day due diligence."
+           es="El ION del vendedor de $1,019,071 está verificado — pero el precio sigue inflado. El cap rate efectivo sobre el precio total es 7.98%, no 8.31%. La vacancia del 24% es 4× el promedio del mercado. El flujo de caja del Año 2 se vuelve negativo después de deuda (-$11,436). Las contradicciones internas del OM en datos de TruFit crean incertidumbre adicional. Recomendamos abrir en $9.5M con due diligence de 60 días y un precio objetivo de $10.5M."
+             en="The seller's NOI of $1,019,071 is verified — but the price remains inflated. The effective cap rate on total price is 7.98%, not 8.31%. The 24% vacancy is 4× the market average. Year 2 cash flow goes negative after debt (-$11,436). Internal OM contradictions on TruFit data create additional uncertainty. We recommend opening at $9.5M with 60-day due diligence and a target price of $10.5M."
           />
         </p>
       </motion.div>

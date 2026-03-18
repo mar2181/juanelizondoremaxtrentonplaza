@@ -16,7 +16,7 @@ const VerdictSection = () => (
         <h2 className="font-serif text-[32px] font-black text-foreground mb-2 max-md:text-[26px]">
           <T es="Oferta Recomendada" en="Recommended Offer" />
         </h2>
-        <p className="text-5xl font-black text-foreground tabular-nums tracking-tighter my-4 max-md:text-4xl">$11,000,000</p>
+        <p className="text-5xl font-black text-foreground tabular-nums tracking-tighter my-4 max-md:text-4xl">$9,500,000</p>
         <p className="text-base text-muted-foreground">
           <T es="vs. precio de venta" en="vs. asking price" /> <span className="line-through opacity-50">$12,764,000</span>
         </p>

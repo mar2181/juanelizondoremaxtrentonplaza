@@ -21,7 +21,7 @@ const VerdictSection = () => (
           <T es="vs. precio de venta" en="vs. asking price" /> <span className="line-through opacity-50">$12,764,000</span>
         </p>
         <div className="inline-block bg-destructive/10 text-destructive text-xs font-bold tracking-wider px-5 py-1.5 rounded-md mt-3">
-          -13.8% <T es="DESCUENTO" en="DISCOUNT" />
+          -25.6% <T es="DESCUENTO" en="DISCOUNT" />
         </div>
         <p className="text-sm text-muted-foreground mt-6 leading-relaxed">
           <T

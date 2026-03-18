@@ -16,17 +16,17 @@ const VerdictSection = () => (
         <h2 className="font-serif text-[32px] font-black text-foreground mb-2 max-md:text-[26px]">
           <T es="Oferta Recomendada" en="Recommended Offer" />
         </h2>
-        <p className="text-5xl font-black text-foreground tabular-nums tracking-tighter my-4 max-md:text-4xl">$11,000,000</p>
+        <p className="text-5xl font-black text-foreground tabular-nums tracking-tighter my-4 max-md:text-4xl">$9,500,000</p>
         <p className="text-base text-muted-foreground">
           <T es="vs. precio de venta" en="vs. asking price" /> <span className="line-through opacity-50">$12,764,000</span>
         </p>
         <div className="inline-block bg-destructive/10 text-destructive text-xs font-bold tracking-wider px-5 py-1.5 rounded-md mt-3">
-          -13.8% <T es="DESCUENTO" en="DISCOUNT" />
+          -25.6% <T es="DESCUENTO" en="DISCOUNT" />
         </div>
         <p className="text-sm text-muted-foreground mt-6 leading-relaxed">
           <T
-            es="El ION del vendedor de $1,019,071 está verificado — pero el precio sigue inflado. El cap rate efectivo sobre el precio total es 7.98%, no 8.31%. La vacancia del 24% es 4× el promedio del mercado. El flujo de caja del Año 2 se vuelve negativo después de deuda (-$11,436). Las contradicciones internas del OM en datos de TruFit crean incertidumbre adicional. Recomendamos abrir en $11.0M con due diligence de 90 días."
-            en="The seller's NOI of $1,019,071 is verified — but the price remains inflated. The effective cap rate on total price is 7.98%, not 8.31%. The 24% vacancy is 4× the market average. Year 2 cash flow goes negative after debt (-$11,436). Internal OM contradictions on TruFit data create additional uncertainty. We recommend opening at $11.0M with 90-day due diligence."
+           es="El ION del vendedor de $1,019,071 está verificado — pero el precio sigue inflado. El cap rate efectivo sobre el precio total es 7.98%, no 8.31%. La vacancia del 24% es 4× el promedio del mercado. El flujo de caja del Año 2 se vuelve negativo después de deuda (-$11,436). Las contradicciones internas del OM en datos de TruFit crean incertidumbre adicional. Recomendamos abrir en $9.5M con due diligence de 60 días y un precio objetivo de $10.5M."
+             en="The seller's NOI of $1,019,071 is verified — but the price remains inflated. The effective cap rate on total price is 7.98%, not 8.31%. The 24% vacancy is 4× the market average. Year 2 cash flow goes negative after debt (-$11,436). Internal OM contradictions on TruFit data create additional uncertainty. We recommend opening at $9.5M with 60-day due diligence and a target price of $10.5M."
           />
         </p>
       </motion.div>
@@ -48,7 +48,7 @@ const VerdictSection = () => (
           { es: "Revisar este reporte con su asesor financiero y equipo legal.", en: "Review this report with your financial advisor and legal team." },
           { es: "Resolver las contradicciones del OM: obtener el contrato real de TruFit para confirmar vencimiento (Dic-29 vs. Dic-34) y renta ($14.00 vs. $13.00/pie²).", en: "Resolve OM contradictions: obtain the actual TruFit lease to confirm expiration (Dec-29 vs. Dec-34) and rent ($14.00 vs. $13.00/SF)." },
           { es: "Verificar estatus de renovación de Cinemark directamente — obtener por escrito si ejercerán su primera opción de renovación. Investigar su salud financiera: utilidad neta -55% en 2025, deuda de $1.87B.", en: "Verify Cinemark renewal status directly — get in writing whether they'll exercise their first renewal option. Investigate financial health: net income -55% in 2025, $1.87B debt." },
-          { es: "Preparar carta de intención (LOI) con oferta de $11.0M y due diligence de 90 días.", en: "Prepare Letter of Intent (LOI) with $11.0M offer and 90-day due diligence." },
+          { es: "Preparar carta de intención (LOI) con oferta de $9.5M y due diligence de 60 días.", en: "Prepare Letter of Intent (LOI) with $9.5M offer and 60-day due diligence." },
           { es: "Solicitar estados financieros auditados de los últimos 3 años y verificar los costos de mejoras para inquilinos ($40/pie² ancla, $25/pie² locales).", en: "Request audited financial statements for the past 3 years and verify tenant improvement costs ($40/SF anchor, $25/SF shops)." },
           { es: "Programar inspección física de la propiedad, incluyendo el terreno adicional de 3.05 AC y el estanque de retención.", en: "Schedule physical property inspection, including the additional 3.05 AC land parcel and retention pond." },
         ].map((item, i) => (

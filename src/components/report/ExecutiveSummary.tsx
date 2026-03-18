@@ -53,7 +53,7 @@ const ExecutiveSummary = () => (
               <td className="px-4 py-3.5 border-b border-border text-success font-semibold">
                 <T es="Conservador (Estado Actual)" en="Conservative (As-Is)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border tabular-nums text-success font-semibold">$10,700,000 – $11,300,000</td>
+              <td className="px-4 py-3.5 border-b border-border tabular-nums text-success font-semibold">$9,300,000 – $9,800,000</td>
               <td className="px-4 py-3.5 border-b border-border text-success">
                 <T es="Oferta inicial" en="Opening offer" />
               </td>
@@ -62,7 +62,7 @@ const ExecutiveSummary = () => (
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Moderado (Ocupación Parcial)" en="Moderate (Partial Lease-Up)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border tabular-nums text-foreground font-semibold">$11,300,000 – $11,800,000</td>
+              <td className="px-4 py-3.5 border-b border-border tabular-nums text-foreground font-semibold">$10,200,000 – $10,800,000</td>
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Precio objetivo" en="Target price" />
               </td>
@@ -71,7 +71,7 @@ const ExecutiveSummary = () => (
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Agresivo (Estabilización Total)" en="Aggressive (Full Stabilization)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border tabular-nums text-foreground font-semibold">$11,800,000 – $12,200,000</td>
+              <td className="px-4 py-3.5 border-b border-border tabular-nums text-foreground font-semibold">$10,800,000 – $11,500,000</td>
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Precio máximo de retiro" en="Walk-away ceiling" />
               </td>
@@ -82,7 +82,7 @@ const ExecutiveSummary = () => (
               </td>
               <td className="px-4 py-3.5 tabular-nums text-destructive font-semibold">$12,764,000</td>
               <td className="px-4 py-3.5 text-destructive">
-                <T es="Sobrevaluado 10–15%" en="Overpriced 10–15%" />
+                <T es="Sobrevaluado 12–25%" en="Overpriced 12–25%" />
               </td>
             </tr>
           </tbody>

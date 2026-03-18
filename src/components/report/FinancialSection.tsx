@@ -213,22 +213,22 @@ const FinancialSection = () => (
               <td className="px-4 py-3.5 border-b border-border text-success font-semibold">
                 <T es="Conservador (Estado Actual)" en="Conservative (As-Is)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-success font-semibold">$10.7M – $11.3M</td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-success">9.0% – 9.5%</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-success font-semibold">$9.3M – $9.8M</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-success">10.4% – 11.0%</td>
             </tr>
             <tr>
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Moderado (Ocupación Parcial)" en="Moderate (Partial Lease-Up)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">$11.3M – $11.8M</td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">8.5% – 8.75%</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">$10.2M – $10.8M</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">9.4% – 10.0%</td>
             </tr>
             <tr>
               <td className="px-4 py-3.5 border-b border-border text-text-sub">
                 <T es="Agresivo (Estabilización Total)" en="Aggressive (Full Stabilization)" />
               </td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">$11.8M – $12.2M</td>
-              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">8.0% – 8.5%</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-foreground font-semibold">$10.8M – $11.5M</td>
+              <td className="px-4 py-3.5 border-b border-border text-right tabular-nums text-text-sub">8.9% – 9.4%</td>
             </tr>
             <tr className="bg-destructive/5">
               <td className="px-4 py-3.5 text-destructive font-semibold">
